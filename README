@@ -1,0 +1,18 @@
+### Scripts ###
+prepdata - Convert downloaded data into preprocessed data for fairlib
+mergedata - Forlow memory machines take bios data downloaded, process it into the right format and merge pkl files togather - designed to be llowmemory
+make_results - train one set of hyperparameters
+completed_codes - Skeleton hyper parameter scans for various de-biasing/dataset combinations.  The parameters in general need tuning to ensure the full coverage needed 
+
+### Notebooks ### 
+
+datastats - get dateset statistics
+Equal Opportunity - BTEO toy model
+Analyse results - Various snippets used in analysis. This notebook will not run all the way through, use it as hints.
+parametric tests - Freidman and mann witney results
+
+### Other ###
+setup - how to install fairlib
+hyperparams.sh - collect up all the hyperparameters used
+compas - Prepare compas dataset the way I did it for the analysis
+R analysis - come checks that the freidman from python is correct

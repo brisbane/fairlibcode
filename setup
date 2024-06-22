@@ -1,0 +1,9 @@
+pip install fairlib
+pip install torchvision
+pip install dotmap
+pip install numpy==1.21.6
+mkdir /tmp/fltmp
+cd /tmp/fltmp
+git clone https://github.com/brisbane/fairlib
+rsync -a ./fairlib $CONDA_PREFIX/lib/python3.8/site-packages/fairlib/ 
+
